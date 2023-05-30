@@ -24,6 +24,8 @@ This repository contains the code for the Platform Engineering Exercise. The exe
 - Flux2 with Helm (Optional)
 - nginx with Helm (Optional)
 
+[Dependencies](./docs/Dependencies.md)
+
 ### Installing
 
 ```bash
