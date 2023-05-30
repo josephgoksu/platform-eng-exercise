@@ -46,7 +46,7 @@ module "eks" {
 
 # Addon: EBS CSI driver
 module "ebs_csi_driver" {
-
+  # Enable the EBS CSI driver if the "enable_ebs_csi_driver" variable is set to true
   count = var.enable_ebs_csi_driver ? 1 : 0
 
   # Use the EKS addons module to add the EBS CSI driver to the cluster
