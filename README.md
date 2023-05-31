@@ -1,5 +1,7 @@
 # Platform Engineering Exercise
 
+[![tfsec](https://github.com/josephgoksu/platform-eng-exercise/actions/workflows/tfsec.yml/badge.svg)](https://github.com/josephgoksu/platform-eng-exercise/actions/workflows/tfsec.yml)
+
 ## Overview
 
 This repository contains the code for the Platform Engineering Exercise. The exercise is to create a Kubernetes cluster in AWS using Terraform.
