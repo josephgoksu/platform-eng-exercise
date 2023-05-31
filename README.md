@@ -4,6 +4,18 @@
 
 This repository contains the code for the Platform Engineering Exercise. The exercise is to create a Kubernetes cluster in AWS using Terraform.
 
+## Table of Contents
+
+- [Platform Engineering Exercise](#platform-engineering-exercise)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Architecture](#architecture)
+    - [Components](#components)
+    - [Installing](#installing)
+    - [Uninstalling](#uninstalling)
+
 ## Getting Started
 
 ### Prerequisites
@@ -12,6 +24,10 @@ This repository contains the code for the Platform Engineering Exercise. The exe
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 - flux2 (optional)
+
+### Architecture
+
+The architecture sequence diagram can be found [here](./docs/Architecture.md).
 
 ### Components
 
@@ -24,7 +40,7 @@ This repository contains the code for the Platform Engineering Exercise. The exe
 - Flux2 with Helm (Optional)
 - nginx with Helm (Optional)
 
-[Dependencies](./docs/Dependencies.md)
+The dependencies can be found [here](./docs/Dependencies.md). It has been generated using terraform-docs
 
 ### Installing
 
