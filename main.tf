@@ -1,18 +1,6 @@
 # Description: This file is used to create the EKS cluster, VPC, and ECR repository
 # Author: Joseph Goksu
 
-# Set the local variables
-locals {
-  cluster_name = "${var.project_name}-eks-${random_string.suffix.result}"
-  vpc_name     = "${var.project_name}-vpc-${random_string.suffix.result}"
-}
-
-# Generate a random string for the cluster name suffix
-resource "random_string" "suffix" {
-  length  = 8
-  special = false
-}
-
 # Create the VPC
 module "vpc" {
   source = "./modules/vpc"
